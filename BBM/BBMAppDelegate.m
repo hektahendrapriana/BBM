@@ -7,12 +7,25 @@
 //
 
 #import "BBMAppDelegate.h"
+#import "BBMTabBarController.h"
+#import "BBMCommon.h"
 
 @implementation BBMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
     // Override point for customization after application launch.
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
+        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
+        splitViewController.delegate = (id)navigationController.topViewController;
+    } else {
+        BBMTabBarController *tabBarController = [[UIStoryboard storyboardWithName:storyboardNameForCurrentDevice(@"Main") bundle:nil] instantiateInitialViewController];
+        [self.window setRootViewController:tabBarController];
+        [self.window makeKeyAndVisible];
+    }
+
     return YES;
 }
 							

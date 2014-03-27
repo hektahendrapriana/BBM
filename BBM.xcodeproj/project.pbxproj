@@ -13,16 +13,27 @@
 		7529AE0B18DFD750007BAF44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7529AE0918DFD750007BAF44 /* InfoPlist.strings */; };
 		7529AE0D18DFD750007BAF44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529AE0C18DFD750007BAF44 /* main.m */; };
 		7529AE1118DFD750007BAF44 /* BBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529AE1018DFD750007BAF44 /* BBMAppDelegate.m */; };
-		7529AE1418DFD750007BAF44 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7529AE1218DFD750007BAF44 /* Main_iPhone.storyboard */; };
-		7529AE1718DFD750007BAF44 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7529AE1518DFD750007BAF44 /* Main_iPad.storyboard */; };
-		7529AE1A18DFD750007BAF44 /* BBMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529AE1918DFD750007BAF44 /* BBMFirstViewController.m */; };
-		7529AE1D18DFD750007BAF44 /* BBMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529AE1C18DFD750007BAF44 /* BBMSecondViewController.m */; };
 		7529AE1F18DFD750007BAF44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7529AE1E18DFD750007BAF44 /* Images.xcassets */; };
 		7529AE2618DFD750007BAF44 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7529AE2518DFD750007BAF44 /* XCTest.framework */; };
 		7529AE2718DFD750007BAF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7529AE0018DFD74F007BAF44 /* Foundation.framework */; };
 		7529AE2818DFD750007BAF44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7529AE0418DFD750007BAF44 /* UIKit.framework */; };
 		7529AE3018DFD750007BAF44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7529AE2E18DFD750007BAF44 /* InfoPlist.strings */; };
 		7529AE3218DFD750007BAF44 /* BBMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529AE3118DFD750007BAF44 /* BBMTests.m */; };
+		7529AE4118E1E568007BAF44 /* BBMConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529AE4018E1E567007BAF44 /* BBMConversationCell.m */; };
+		7529AE4518E1E66E007BAF44 /* BBMStatusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529AE4418E1E66E007BAF44 /* BBMStatusLabel.m */; };
+		7529AE4718E1FD02007BAF44 /* BBMNavigationProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7529AE4618E1FD02007BAF44 /* BBMNavigationProfileView.xib */; };
+		7529AE4A18E1FE79007BAF44 /* BBMNavigationProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7529AE4918E1FE79007BAF44 /* BBMNavigationProfileView.m */; };
+		7571570E18E47EEC00CDE292 /* BBMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7571570D18E47EEC00CDE292 /* BBMTabBarController.m */; };
+		7571571418E47FA600CDE292 /* BBMChatsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7571571118E47FA600CDE292 /* BBMChatsTableViewController.m */; };
+		7571571518E47FA600CDE292 /* BBMConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7571571318E47FA600CDE292 /* BBMConversationViewController.m */; };
+		7571571B18E47FDE00CDE292 /* BBMCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7571571818E47FDE00CDE292 /* BBMCommon.m */; };
+		7571571C18E47FDE00CDE292 /* UIColor+BBM.m in Sources */ = {isa = PBXBuildFile; fileRef = 7571571A18E47FDE00CDE292 /* UIColor+BBM.m */; };
+		7571572118E480BA00CDE292 /* Groups_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7571572018E480BA00CDE292 /* Groups_iPhone.storyboard */; };
+		7571572418E4814600CDE292 /* Chats_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7571572218E4814600CDE292 /* Chats_iPhone.storyboard */; };
+		7571572518E4814600CDE292 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7571572318E4814600CDE292 /* Main_iPhone.storyboard */; };
+		7571572718E4816C00CDE292 /* Updates_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7571572618E4816C00CDE292 /* Updates_iPhone.storyboard */; };
+		7571572B18E4819400CDE292 /* Contacts_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7571572A18E4819400CDE292 /* Contacts_iPhone.storyboard */; };
+		7571572D18E481A300CDE292 /* Channels_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7571572C18E481A300CDE292 /* Channels_iPhone.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,18 +57,35 @@
 		7529AE0E18DFD750007BAF44 /* BBM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBM-Prefix.pch"; sourceTree = "<group>"; };
 		7529AE0F18DFD750007BAF44 /* BBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMAppDelegate.h; sourceTree = "<group>"; };
 		7529AE1018DFD750007BAF44 /* BBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMAppDelegate.m; sourceTree = "<group>"; };
-		7529AE1318DFD750007BAF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		7529AE1618DFD750007BAF44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		7529AE1818DFD750007BAF44 /* BBMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMFirstViewController.h; sourceTree = "<group>"; };
-		7529AE1918DFD750007BAF44 /* BBMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMFirstViewController.m; sourceTree = "<group>"; };
-		7529AE1B18DFD750007BAF44 /* BBMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMSecondViewController.h; sourceTree = "<group>"; };
-		7529AE1C18DFD750007BAF44 /* BBMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMSecondViewController.m; sourceTree = "<group>"; };
 		7529AE1E18DFD750007BAF44 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7529AE2418DFD750007BAF44 /* BBMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7529AE2518DFD750007BAF44 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7529AE2D18DFD750007BAF44 /* BBMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBMTests-Info.plist"; sourceTree = "<group>"; };
 		7529AE2F18DFD750007BAF44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7529AE3118DFD750007BAF44 /* BBMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMTests.m; sourceTree = "<group>"; };
+		7529AE3F18E1E567007BAF44 /* BBMConversationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBMConversationCell.h; path = Cells/BBMConversationCell.h; sourceTree = "<group>"; };
+		7529AE4018E1E567007BAF44 /* BBMConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMConversationCell.m; path = Cells/BBMConversationCell.m; sourceTree = "<group>"; };
+		7529AE4318E1E66E007BAF44 /* BBMStatusLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBMStatusLabel.h; path = Views/BBMStatusLabel.h; sourceTree = "<group>"; };
+		7529AE4418E1E66E007BAF44 /* BBMStatusLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMStatusLabel.m; path = Views/BBMStatusLabel.m; sourceTree = "<group>"; };
+		7529AE4618E1FD02007BAF44 /* BBMNavigationProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BBMNavigationProfileView.xib; path = Views/BBMNavigationProfileView.xib; sourceTree = "<group>"; };
+		7529AE4818E1FE78007BAF44 /* BBMNavigationProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBMNavigationProfileView.h; path = Views/BBMNavigationProfileView.h; sourceTree = "<group>"; };
+		7529AE4918E1FE79007BAF44 /* BBMNavigationProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMNavigationProfileView.m; path = Views/BBMNavigationProfileView.m; sourceTree = "<group>"; };
+		7571570C18E47EEC00CDE292 /* BBMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBMTabBarController.h; path = Controllers/BBMTabBarController.h; sourceTree = "<group>"; };
+		7571570D18E47EEC00CDE292 /* BBMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMTabBarController.m; path = Controllers/BBMTabBarController.m; sourceTree = "<group>"; };
+		7571571018E47FA600CDE292 /* BBMChatsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBMChatsTableViewController.h; path = Controllers/BBMChatsTableViewController.h; sourceTree = "<group>"; };
+		7571571118E47FA600CDE292 /* BBMChatsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMChatsTableViewController.m; path = Controllers/BBMChatsTableViewController.m; sourceTree = "<group>"; };
+		7571571218E47FA600CDE292 /* BBMConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBMConversationViewController.h; path = Controllers/BBMConversationViewController.h; sourceTree = "<group>"; };
+		7571571318E47FA600CDE292 /* BBMConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMConversationViewController.m; path = Controllers/BBMConversationViewController.m; sourceTree = "<group>"; };
+		7571571718E47FDE00CDE292 /* BBMCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBMCommon.h; path = Common/BBMCommon.h; sourceTree = "<group>"; };
+		7571571818E47FDE00CDE292 /* BBMCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBMCommon.m; path = Common/BBMCommon.m; sourceTree = "<group>"; };
+		7571571918E47FDE00CDE292 /* UIColor+BBM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+BBM.h"; path = "Common/UIColor+BBM.h"; sourceTree = "<group>"; };
+		7571571A18E47FDE00CDE292 /* UIColor+BBM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BBM.m"; path = "Common/UIColor+BBM.m"; sourceTree = "<group>"; };
+		7571572018E480BA00CDE292 /* Groups_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Groups_iPhone.storyboard; path = Storyboards/Groups_iPhone.storyboard; sourceTree = "<group>"; };
+		7571572218E4814600CDE292 /* Chats_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Chats_iPhone.storyboard; path = Storyboards/Chats_iPhone.storyboard; sourceTree = "<group>"; };
+		7571572318E4814600CDE292 /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main_iPhone.storyboard; path = Storyboards/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7571572618E4816C00CDE292 /* Updates_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Updates_iPhone.storyboard; path = Storyboards/Updates_iPhone.storyboard; sourceTree = "<group>"; };
+		7571572A18E4819400CDE292 /* Contacts_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Contacts_iPhone.storyboard; path = Storyboards/Contacts_iPhone.storyboard; sourceTree = "<group>"; };
+		7571572C18E481A300CDE292 /* Channels_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Channels_iPhone.storyboard; path = Storyboards/Channels_iPhone.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,14 +145,13 @@
 		7529AE0618DFD750007BAF44 /* BBM */ = {
 			isa = PBXGroup;
 			children = (
+				7571571D18E4807600CDE292 /* Storyboards */,
+				7571571618E47FAB00CDE292 /* Common */,
+				7571570B18E47EC600CDE292 /* Controllers */,
+				7529AE4218E1E607007BAF44 /* Views */,
+				7529AE3E18E1E522007BAF44 /* Cells */,
 				7529AE0F18DFD750007BAF44 /* BBMAppDelegate.h */,
 				7529AE1018DFD750007BAF44 /* BBMAppDelegate.m */,
-				7529AE1218DFD750007BAF44 /* Main_iPhone.storyboard */,
-				7529AE1518DFD750007BAF44 /* Main_iPad.storyboard */,
-				7529AE1818DFD750007BAF44 /* BBMFirstViewController.h */,
-				7529AE1918DFD750007BAF44 /* BBMFirstViewController.m */,
-				7529AE1B18DFD750007BAF44 /* BBMSecondViewController.h */,
-				7529AE1C18DFD750007BAF44 /* BBMSecondViewController.m */,
 				7529AE1E18DFD750007BAF44 /* Images.xcassets */,
 				7529AE0718DFD750007BAF44 /* Supporting Files */,
 			);
@@ -158,6 +185,64 @@
 				7529AE2E18DFD750007BAF44 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7529AE3E18E1E522007BAF44 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7529AE3F18E1E567007BAF44 /* BBMConversationCell.h */,
+				7529AE4018E1E567007BAF44 /* BBMConversationCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		7529AE4218E1E607007BAF44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7529AE4318E1E66E007BAF44 /* BBMStatusLabel.h */,
+				7529AE4418E1E66E007BAF44 /* BBMStatusLabel.m */,
+				7529AE4618E1FD02007BAF44 /* BBMNavigationProfileView.xib */,
+				7529AE4818E1FE78007BAF44 /* BBMNavigationProfileView.h */,
+				7529AE4918E1FE79007BAF44 /* BBMNavigationProfileView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7571570B18E47EC600CDE292 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7571571018E47FA600CDE292 /* BBMChatsTableViewController.h */,
+				7571571118E47FA600CDE292 /* BBMChatsTableViewController.m */,
+				7571571218E47FA600CDE292 /* BBMConversationViewController.h */,
+				7571571318E47FA600CDE292 /* BBMConversationViewController.m */,
+				7571570C18E47EEC00CDE292 /* BBMTabBarController.h */,
+				7571570D18E47EEC00CDE292 /* BBMTabBarController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7571571618E47FAB00CDE292 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7571571718E47FDE00CDE292 /* BBMCommon.h */,
+				7571571818E47FDE00CDE292 /* BBMCommon.m */,
+				7571571918E47FDE00CDE292 /* UIColor+BBM.h */,
+				7571571A18E47FDE00CDE292 /* UIColor+BBM.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		7571571D18E4807600CDE292 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7571572018E480BA00CDE292 /* Groups_iPhone.storyboard */,
+				7571572218E4814600CDE292 /* Chats_iPhone.storyboard */,
+				7571572A18E4819400CDE292 /* Contacts_iPhone.storyboard */,
+				7571572318E4814600CDE292 /* Main_iPhone.storyboard */,
+				7571572618E4816C00CDE292 /* Updates_iPhone.storyboard */,
+				7571572C18E481A300CDE292 /* Channels_iPhone.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +290,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BBM;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Kennel Studios Inc.";
 				TargetAttributes = {
 					7529AE2318DFD750007BAF44 = {
@@ -237,9 +322,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7529AE1718DFD750007BAF44 /* Main_iPad.storyboard in Resources */,
+				7529AE4718E1FD02007BAF44 /* BBMNavigationProfileView.xib in Resources */,
+				7571572D18E481A300CDE292 /* Channels_iPhone.storyboard in Resources */,
 				7529AE1F18DFD750007BAF44 /* Images.xcassets in Resources */,
-				7529AE1418DFD750007BAF44 /* Main_iPhone.storyboard in Resources */,
+				7571572B18E4819400CDE292 /* Contacts_iPhone.storyboard in Resources */,
+				7571572518E4814600CDE292 /* Main_iPhone.storyboard in Resources */,
+				7571572118E480BA00CDE292 /* Groups_iPhone.storyboard in Resources */,
+				7571572718E4816C00CDE292 /* Updates_iPhone.storyboard in Resources */,
+				7571572418E4814600CDE292 /* Chats_iPhone.storyboard in Resources */,
 				7529AE0B18DFD750007BAF44 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,10 +349,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7529AE1D18DFD750007BAF44 /* BBMSecondViewController.m in Sources */,
-				7529AE1A18DFD750007BAF44 /* BBMFirstViewController.m in Sources */,
+				7571571B18E47FDE00CDE292 /* BBMCommon.m in Sources */,
+				7529AE4118E1E568007BAF44 /* BBMConversationCell.m in Sources */,
+				7571571418E47FA600CDE292 /* BBMChatsTableViewController.m in Sources */,
 				7529AE1118DFD750007BAF44 /* BBMAppDelegate.m in Sources */,
+				7571570E18E47EEC00CDE292 /* BBMTabBarController.m in Sources */,
+				7529AE4A18E1FE79007BAF44 /* BBMNavigationProfileView.m in Sources */,
+				7571571518E47FA600CDE292 /* BBMConversationViewController.m in Sources */,
+				7571571C18E47FDE00CDE292 /* UIColor+BBM.m in Sources */,
 				7529AE0D18DFD750007BAF44 /* main.m in Sources */,
+				7529AE4518E1E66E007BAF44 /* BBMStatusLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,22 +389,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7529AE1218DFD750007BAF44 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7529AE1318DFD750007BAF44 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		7529AE1518DFD750007BAF44 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7529AE1618DFD750007BAF44 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		7529AE2E18DFD750007BAF44 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -324,7 +404,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -364,7 +443,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -423,7 +501,6 @@
 		7529AE3918DFD750007BAF44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BBM.app/BBM";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -446,7 +523,6 @@
 		7529AE3A18DFD750007BAF44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BBM.app/BBM";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -481,6 +557,7 @@
 				7529AE3718DFD750007BAF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7529AE3818DFD750007BAF44 /* Build configuration list for PBXNativeTarget "BBMTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +566,7 @@
 				7529AE3A18DFD750007BAF44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
